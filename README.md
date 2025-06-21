@@ -21,5 +21,5 @@ Welcome to the AWS Projects Collection! This repo holds multiple hands-on AWS-re
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/priscillaclark/aws-projects.git
-   cd aws-projects
+   git clone https://github.com/priscillaclark/AWS_projects.git
+   cd AWS_projects
