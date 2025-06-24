@@ -23,3 +23,19 @@ Welcome to the AWS Projects Collection! This repo holds multiple hands-on AWS-re
    ```bash
    git clone https://github.com/priscillaclark/AWS_projects.git
    cd AWS_projects
+______________________________________________________________________
+
+# 🧰 Environment Setup for New Project: WSL + Docker/Podman + AWS CLI
+
+This guide explains step-by-step how to set up a development environment on WSL (Windows Subsystem for Linux) to work with Docker, Podman, and AWS CLI.
+
+---
+
+## 📦 Manual Setup Steps
+
+### 1. Install WSL (Windows Subsystem for Linux)
+
+```bash
+wsl --install
+Installs WSL and the default Linux distribution.
+
