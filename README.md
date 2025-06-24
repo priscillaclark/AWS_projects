@@ -13,7 +13,7 @@ Welcome to the AWS Projects Collection! This repo holds multiple hands-on AWS-re
 ## 🧰 General Requirements
 
 - [Git](https://git-scm.com/)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Podman Desktop](https://podman-desktop.io/downloads/windows)
 - WSL2 (for Windows users)
 - Basic AWS knowledge
 
