@@ -6,9 +6,9 @@ Welcome to the AWS Projects Collection! This repo holds multiple hands-on AWS-re
 
 | Project | Description |
 |---------|-------------|
-| [Project 01 - LocalStack Dev Environment](./project-01-localstack-dev-env) | Local AWS development environment using LocalStack and Docker |
-| Project 02 - *(Coming Soon)* | Other AWS-related project |
-| Project 03 - *(Coming Soon)* | Other AWS-related project |
+| [LocalStack Environment Setup](./setup-localstack) | Local AWS development environment using LocalStack and Podman |
+| Project 01 - *(Coming Soon)* | AWS-related project |
+| Project 02 - *(Coming Soon)* | AWS-related project |
 
 ## 🧰 General Requirements
 
