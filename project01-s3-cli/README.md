@@ -1,5 +1,4 @@
 
-````markdown
 # LocalStack + AWS CLI Setup for Local S3 Development
 
 This guide explains how to run LocalStack using Docker and configure the AWS CLI to work with a simulated local AWS environment. It also includes an automated script to simplify environment setup.
