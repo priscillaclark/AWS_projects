@@ -29,5 +29,5 @@ Basically, LocalStack acts as a local AWS mock that responds to the same APIs yo
 
 ## 📦 Setup (Coming Soon)
 
-Instructions for installing WSL2, Docker Desktop, and running LocalStack will be added here.
+Instructions for installing WSL2, Docker Desktop, and running LocalStack are in project01-s3-cli.
 
