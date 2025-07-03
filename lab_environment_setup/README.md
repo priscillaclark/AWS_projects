@@ -1,8 +1,4 @@
-Here’s your content formatted **exactly** so you can paste it into `nano` and save it in a `.md` or `.sh` file (depending on whether you want it as documentation or executable script). It preserves Markdown headers and code blocks properly.
 
----
-
-````markdown
 # 🧰 Environment Setup for New Project: WSL + Docker/Podman + AWS CLI
 
 This guide explains step-by-step how to set up a development environment on WSL (Windows Subsystem for Linux) to work with Docker, Podman, and AWS CLI.
