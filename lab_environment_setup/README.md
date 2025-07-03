@@ -10,9 +10,9 @@
 | Podman Desktop   | Latest version (WSL2-compatible) | Handles container runtime, WSL2 integration, and networking on Windows—similar to Docker Desktop. |
 
 
-This guide explains step-by-step how to set up a development environment on WSL (Windows Subsystem for Linux) to work with Docker, Podman, and AWS CLI.
-
 ## 📦 Manual Setup Steps
+
+Step-by-step on how to set up a development environment on WSL (Windows Subsystem for Linux) to work with Docker, Podman, and AWS CLI.
 
 ### 1. Install WSL (Windows Subsystem for Linux)
 ```bash
