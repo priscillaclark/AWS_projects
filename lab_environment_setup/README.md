@@ -1,5 +1,14 @@
 
-# 🧰 Environment Setup for New Project: WSL + Docker/Podman + AWS CLI
+# 🧰 Resource Requirements (Windows)
+
+| Resource         | Recommended                  | Notes                                                                                   |
+|------------------|------------------------------|-----------------------------------------------------------------------------------------|
+| CPU              | 4 cores or more              | Podman runs multiple containers and background services. 2 cores may work, but performance will be limited. |
+| RAM              | Minimum 8 GB, ideally 16 GB  | LocalStack + Podman + your code editor (e.g. VSCode) + browser can consume significant memory. |
+| Storage          | ~2 GB minimum                | Podman images are ~1–1.5 GB. LocalStack also stores logs and volumes when persistence is enabled. |
+| Operating System | Windows 10/11 with WSL2      | ✅ "Virtual Machine Platform" and ✅ "Windows Subsystem for Linux" must be enabled in "Windows Features". |
+| Podman Desktop   | Latest version (WSL2-compatible) | Handles container runtime, WSL2 integration, and networking on Windows—similar to Docker Desktop. |
+
 
 This guide explains step-by-step how to set up a development environment on WSL (Windows Subsystem for Linux) to work with Docker, Podman, and AWS CLI.
 
@@ -172,9 +181,4 @@ Run it:
 * This script assumes you have sudo access.
 * Open a new terminal after the script to load the alias properly.
 * On WSL2, if `systemd` is not enabled, `systemctl --user` may not work. Consider enabling `systemd` or managing the Podman socket manually.
-
-```
-
----
-
 
