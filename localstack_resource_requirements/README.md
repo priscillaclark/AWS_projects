@@ -1,4 +1,4 @@
-# 🧪 LocalStack Dev Environment
+# 🧪 LocalStack
 
 LocalStack is a useful tool for development and testing environments that emulates AWS services locally. It lets you develop and test apps that rely on AWS services without needing to connect to the real cloud. This saves costs, speeds up development, and allows you to work offline.
 
