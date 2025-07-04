@@ -24,6 +24,43 @@ docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 | `-p 4571:4571`          | Maps port 4571 (used by other LocalStack services) |
 | `localstack/localstack` | Official LocalStack Docker image                   |
 
+
+## ✅ How to Check if LocalStack is Running
+
+### 1. Using `nc` (netcat)
+Check if port 4566 is open:
+
+```bash
+nc -zv localhost 4566
+```
+
+✅ Success: LocalStack is running  
+❌ Failure: It's not running
+
+---
+
+### 2. Using `curl`
+Check the health endpoint:
+
+```bash
+curl http://localhost:4566/health
+```
+
+You’ll get a JSON with running services.
+
+---
+
+### 3. Using Docker or Podman
+Check running containers:
+
+```bash
+docker ps | grep localstack
+# or
+podman ps | grep localstack
+```
+
+Shows container name, status, and port mapping.
+
 ---
 
 ## 2. Configuring AWS CLI to Use LocalStack
