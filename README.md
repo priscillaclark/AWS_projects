@@ -25,3 +25,22 @@ Welcome to the AWS Projects Collection! This repo holds multiple hands-on AWS-re
    cd AWS_projects
 ______________________________________________________________________
 
+## 📂 Repository tree (current)
+
+AWS_projects
+├── README.md
+├── aws_cli_setup_script
+│   ├── README.md
+│   ├── docs
+│   ├── localstack
+│   ├── src
+│   │   └── lab-setup.sh
+│   └── tests
+├── lab_environment_setup
+│   └── README.md
+└── localstack_tool
+    ├── README.md
+    ├── docs
+    ├── localstack
+    └── src
+
