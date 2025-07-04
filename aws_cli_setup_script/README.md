@@ -13,7 +13,8 @@ Run the following command to start LocalStack, which emulates AWS services local
 docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 ````
 
-### What each part of the command does:
+<details>
+<summary> ### 🔽 Detail for each part of the command </summary>
 
 | Command part            | Meaning                                            |
 | ----------------------- | -------------------------------------------------- |
@@ -24,8 +25,11 @@ docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 | `-p 4571:4571`          | Maps port 4571 (used by other LocalStack services) |
 | `localstack/localstack` | Official LocalStack Docker image                   |
 
+</details>
 
-## ✅ How to Check if LocalStack is Running
+<details>
+    
+<summary> ### 🔽 How to Check if LocalStack is Running </summary>
 
 ### 1. Using `nc` (netcat)
 Check if port 4566 is open:
@@ -61,6 +65,7 @@ podman ps | grep localstack
 
 Shows container name, status, and port mapping.
 
+</details>
 ---
 
 ## 2. Configuring AWS CLI to Use LocalStack
