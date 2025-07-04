@@ -2,7 +2,7 @@
 
 Welcome to the AWS Projects Collection! This repo holds multiple hands-on AWS-related projects for learning, testing, and development. Each project is self-contained with its own code, configs, and documentation.
 
-## 📁 Projects Index
+## 🗂️ Projects Index
 
 | Project | Description |
 |---------|-------------|
@@ -23,10 +23,11 @@ Welcome to the AWS Projects Collection! This repo holds multiple hands-on AWS-re
    ```bash
    git clone https://github.com/priscillaclark/AWS_projects.git
    cd AWS_projects
-______________________________________________________________________
+   ```
 
-## 📂 Repository tree (current)
+## 🛠️ Repository tree (current)
 
+ ```bash
 AWS_projects
 ├── README.md
 ├── aws_cli_setup_script
@@ -43,4 +44,7 @@ AWS_projects
     ├── docs
     ├── localstack
     └── src
+```
 
+
+______________________________________________________________________
