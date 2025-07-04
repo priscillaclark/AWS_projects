@@ -63,7 +63,7 @@ To make it easier to verify that LocalStack is running and to automatically conf
 Navigate to your project folder and create the script file:
 
 ```bash
-cd "/mnt/c/Users/Priscilla Clark/AWS_projects/project01-s3-cli/src"
+cd "/mnt/c/Users/Priscilla Clark/AWS_projects/aws_cli_setup_script/src"
 touch lab-setup.sh
 nano lab-setup.sh
 ```
@@ -110,7 +110,7 @@ chmod +x lab-setup.sh
 Each time you open a new WSL terminal, run:
 
 ```bash
-cd "/mnt/c/Users/Priscilla Clark/AWS_projects/project01-s3-cli/src"
+cd "/mnt/c/Users/Priscilla Clark/AWS_projects/aws_cli_setup_script/src"
 ./lab-setup.sh
 ```
 
