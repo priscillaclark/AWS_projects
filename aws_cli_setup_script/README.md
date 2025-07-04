@@ -14,7 +14,7 @@ docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 ````
 
 <details>
-<summary> ### 🔽 Detail for each part of the command </summary>
+<summary> 🔽 ### Detail for each part of the command </summary>
 
 | Command part            | Meaning                                            |
 | ----------------------- | -------------------------------------------------- |
@@ -29,7 +29,7 @@ docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 
 <details>
     
-<summary> ### 🔽 How to Check if LocalStack is Running </summary>
+<summary> 🔽 ### How to Check if LocalStack is Running </summary>
 
 ### 1. Using `nc` (netcat)
 Check if port 4566 is open:
