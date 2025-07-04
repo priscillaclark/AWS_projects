@@ -65,6 +65,7 @@ podman ps | grep localstack
 Shows container name, status, and port mapping.
 
 </details>
+
 ---
 
 ## 2. Configuring AWS CLI to Use LocalStack
