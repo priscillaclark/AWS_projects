@@ -17,11 +17,6 @@ Run all steps with:
 
 > ⚠️ Note: LocalStack does not serve real web content via browser, but you can verify everything was configured correctly via the AWS CLI.
 
-To verify:
-
-```bash
-aws --endpoint-url=http://localhost:4566 s3api get-bucket-website --bucket new-static-site
-```
 
 ## 📁 Folder contents
 
@@ -34,3 +29,27 @@ website/
 └── README.md              # This file
 ```
 
+Check if the bucket exists:
+
+```
+aws --endpoint-url=http://localhost:4566 s3 ls
+```
+
+Create the bucket manually if needed:
+
+```
+aws --endpoint-url=http://localhost:4566 s3 mb s3://new-static-site
+```
+
+Apply the website configuration again:
+```
+aws --endpoint-url=http://localhost:4566 s3api put-bucket-website \
+  --bucket new-static-site \
+  --website-configuration file://website-config.json
+```
+
+Verify the configuration:
+```
+aws --endpoint-url=http://localhost:4566 s3api get-bucket-website \
+  --bucket new-static-site
+```
