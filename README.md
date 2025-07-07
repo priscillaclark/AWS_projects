@@ -6,9 +6,10 @@ Welcome to the AWS Projects Collection! This repo holds multiple hands-on AWS-re
 
 | Project | Description |
 |---------|-------------|
-| [LocalStack Environment Setup](./setup-localstack) | Docs and Requirements for LocalStack development environment |
-| [Project 01 - AWS CLI Setup for Local S3](./project01-s3-cli)  | Local S3 simulation with AWS CLI, LocalStack, and Podman |
-| Project 02 - *(Coming Soon)* | AWS-related project |
+| [LocalStack Tool](./localstack_tool) | Docs for LocalStack tool |
+| [Lab Environment Setup](./lab_environment_setup) | Docs and Requirements for Lab development environment |
+| [AWS CLI Setup Script](./aws_cli_setup_script)  | Local S3 simulation with AWS CLI, LocalStack, and Podman |
+| [Hosting a static website using Amazon S3] - *(Coming Soon)* | AWS-related project |
 
 ## 🧰 General Requirements
 
