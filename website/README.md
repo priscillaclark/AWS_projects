@@ -29,6 +29,10 @@ website/
 └── README.md              # This file
 ```
 
+---
+
+## 🛠️ Troubleshooting
+
 Check if the bucket exists:
 
 ```
