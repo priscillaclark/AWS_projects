@@ -14,7 +14,7 @@ Run the following command to start LocalStack, which emulates AWS services local
 
 
 ```bash
-docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
+docker run -it -p 4566:4566 -p 4571:4571 localstack/localstack
 ````
 
 
@@ -25,7 +25,6 @@ docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 | Command part            | Meaning                                            |
 | ----------------------- | -------------------------------------------------- |
 | `docker run`            | Runs a Docker container                            |
-| `--rm`                  | Automatically removes the container when it stops  |
 | `-it`                   | Interactive terminal mode                          |
 | `-p 4566:4566`          | Maps port 4566 (used by S3 and other services)     |
 | `-p 4571:4571`          | Maps port 4571 (used by other LocalStack services) |
@@ -34,6 +33,48 @@ docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 
 </details>
 
+
+<details>
+<summary> 🛑 How to Stop and Restart LocalStack </summary>
+
+### 🧯 Stopping LocalStack
+
+1. First, find the running container:
+
+```bash
+docker ps
+```
+
+Look for the name or container ID of the LocalStack container (e.g., localstack/localstack, or something like sleepy_darwin).
+
+Then stop it by name or container ID:
+
+```bash
+docker stop <container_id_or_name>
+```
+Example:
+
+```bash
+docker stop localstack-persistent
+```
+
+> 💡 *Note*: Avoid using `--rm` when starting LocalStack, or all buckets and resources will be deleted when the container stops.
+
+🔄 Restarting LocalStack (with persistence)
+To reuse a container and keep your previous resources, start it like this with a name:
+
+```bash
+docker run -it --name localstack-persistent -p 4566:4566 localstack/localstack
+```
+This allows you to stop and start it later without losing data:
+
+```bash
+docker stop localstack-persistent
+docker start -a localstack-persistent
+```
+-a brings it to the foreground again so you can see logs.
+
+</details>
 
 <details>
 <summary> 🔽 How to Check if LocalStack is Running </summary>
@@ -160,7 +201,7 @@ if nc -z localhost 4566; then
     echo "✅ LocalStack is active on port 4566"
 else
     echo "❌ LocalStack doesn't appear to be running. Please open another terminal and run:"
-    echo "   docker run --rm -it -p 4566:4566 docker.io/localstack/localstack"
+    echo "   docker run -it -p 4566:4566 docker.io/localstack/localstack"
     exit 1
 fi
 
