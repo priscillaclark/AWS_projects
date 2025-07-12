@@ -5,7 +5,7 @@ if nc -z localhost 4566; then
     echo "✅ LocalStack is active on port 4566"
 else
     echo "❌ LocalStack doesn't appear to be running. Please open another terminal and run:"
-    echo "   docker run --rm -it -p 4566:4566 docker.io/localstack/localstack"
+    echo "   docker run -it -p 4566:4566 docker.io/localstack/localstack"
     exit 1
 fi
 
