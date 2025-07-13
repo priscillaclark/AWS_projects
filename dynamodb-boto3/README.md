@@ -1,4 +1,4 @@
-# 🧪 Lab 2: DynamoDB + Boto3 with LocalStack
+# 🧪 DynamoDB + Boto3 with LocalStack
 
 This project simulates interactions with AWS DynamoDB using Python and Boto3 in a local development environment powered by LocalStack.
 
@@ -93,7 +93,7 @@ docker compose up -d
 ```
 
 <details>
-<summary> ## Notes </summary>
+*Docker Compose details*
 
 docker-compose uses a YAML file (docker-compose.yml) to define services and environment variables.
 
