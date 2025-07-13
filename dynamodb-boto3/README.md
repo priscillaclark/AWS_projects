@@ -8,7 +8,7 @@ Practice working with DynamoDB tables programmatically, including creating table
 
 ---
 
-🧰 Python Environment Setup (WSL)
+## 🧰 Python Environment Setup (WSL)
 
 Modern Linux systems (like WSL) protect the global Python environment. A virtual environment is required to safely install packages like `boto3` without system-level restrictions.
 
@@ -93,7 +93,7 @@ docker compose up -d
 ```
 
 <details>
-<summary>**Notes**</summary>
+<summary> ## Notes </summary>
 
 docker-compose uses a YAML file (docker-compose.yml) to define services and environment variables.
 
