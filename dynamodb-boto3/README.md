@@ -75,8 +75,7 @@ project02-dynamodb-boto3/
 │   └── query_data.py            # Retrieve data
 ├── tests/
 │   └── test_dynamo_ops.py       # Optional tests (pytest or plain assertions)
-├── docker/
-│   └── docker-compose.yml       # Runs LocalStack with DynamoDB
+├── docker-compose.yml           # Runs LocalStack with DynamoDB
 ├── requirements.txt             # Python dependencies
 └── README.md                    # This file
 ```
@@ -93,7 +92,6 @@ docker compose up -d
 ```
 
 <details>
-*Docker Compose details*
 
 docker-compose uses a YAML file (docker-compose.yml) to define services and environment variables.
 
