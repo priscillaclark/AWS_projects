@@ -1,14 +1,15 @@
-# 🧪 DynamoDB + Boto3 with LocalStack
+# 📌 DynamoDB + Boto3 with LocalStack
 
 This project simulates interactions with AWS DynamoDB using Python and Boto3 in a local development environment powered by LocalStack.
 
-## 🎯 Objective
+### 🎯 Objective
 
 Practice working with DynamoDB tables programmatically, including creating tables, inserting items, querying data, and applying simple tests — all locally, with no AWS charges.
 
 ---
 
-## 🧰 Python Environment Setup (WSL)
+
+## 📥 Python Environment Setup (WSL)
 
 Modern Linux systems (like WSL) protect the global Python environment. A virtual environment is required to safely install packages like `boto3` without system-level restrictions.
 
