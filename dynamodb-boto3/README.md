@@ -60,8 +60,7 @@ project02-dynamodb-boto3/
 │   └── query_data.py            # Retrieve data
 ├── tests/
 │   └── test_dynamo_ops.py       # Optional tests
-├── docker/
-│   └── docker-compose.yml       # LocalStack configuration
+├──  docker-compose.yml          # LocalStack configuration
 ├── requirements.txt             # Python dependencies
 └── README.md                    # This file
 ```
@@ -73,7 +72,7 @@ project02-dynamodb-boto3/
 ### ✅ Step 0: Create project structure
 
 ```bash
-mkdir -p AWS_projects/dynamodb-boto3/{src,scripts,tests,docker}
+mkdir -p AWS_projects/dynamodb-boto3/{src,scripts,tests}
 cd AWS_projects/dynamodb-boto3
 ```
 
@@ -98,7 +97,7 @@ services:
 Run LocalStack:
 
 ```bash
-docker compose -f docker/docker-compose.yml up -d
+docker compose -f docker-compose.yml up -d
 ```
 
 <details>
