@@ -9,8 +9,8 @@ Welcome to the AWS Projects Collection! This repo holds multiple hands-on AWS-re
 | [LocalStack Tool](./localstack_tool) | Docs for LocalStack tool |
 | [Lab Environment Setup](./lab_environment_setup) | Docs and Requirements for Lab development environment |
 | [AWS CLI Setup Script](./aws_cli_setup_script)  | Local S3 simulation with AWS CLI, LocalStack, and Podman |
-| [Website] - (./website) | Hosting a static website using Amazon S3 |
-| [DynamoDB + Boto3 with LocalStack] - (./dynamodb-boto3) | DynamoDB using Python and Boto3 in a local development environment powered by LocalStack |
+| [Website](./website) | Hosting a static website using Amazon S3 |
+| [DynamoDB + Boto3 with LocalStack](./dynamodb-boto3) | DynamoDB using Python and Boto3 in a local development environment powered by LocalStack |
 
 ## 🧰 General Requirements
 
